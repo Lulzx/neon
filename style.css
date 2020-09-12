@@ -76,6 +76,13 @@
   margin-bottom: 100px;
 }
 
+.ring:hover {
+  opacity: 0.5;
+  transition-property: opacity;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-in;
+}
+
 .ring::after,
 .ring::before {
   content: ' ';
